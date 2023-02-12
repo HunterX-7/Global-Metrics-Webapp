@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 New Awesome Bookstore <a name="about-project"></a>
+# 📖 Global Metrics <a name="about-project"></a>
 
 **Global Metrics** is a single-page app using react that allows users to display basic info about a country, you can filter and select a country to know more details about it. The main focus of this project is to display my skill with React, Redux, the use of APIs and other frameworks.
 
