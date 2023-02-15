@@ -1,31 +1,32 @@
 import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import PropTypes, { string } from 'prop-types';
+import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 const DetailCard = (props) => {
-  const { name, population, flag } = props;
+  const { name, capital, flag } = props;
 
   return (
-    <>
-      <Link to={`country/${name}`}>
-        <div>
-          <img
-            src={flag}
-            alt={name}
-            width="150"
-            height="100"
-          />
-        </div>
-      </Link>
-      <h2>{name}</h2>
-      <p>{population}</p>
-    </>
+    <Col className="my-3 d-flex justify-content-center" xs={12} md={6} lg={4} xl={3}>
+      <Card style={{ width: '18rem' }} className="shadow-lg bg-color2">
+        <Link to={`country/${name}`}>
+          <Card.Img className="p-2" variant="top" src={flag} alt={name} />
+        </Link>
+        <Card.Body className="d-flex flex-column justify-content-evenly">
+          <Card.Title className="text-center" style={{ fontWeight: '600', fontSize: '24px' }}>{name}</Card.Title>
+          <Card.Subtitle className="text-center" style={{ fontWeight: '500' }}>
+            {capital}
+          </Card.Subtitle>
+        </Card.Body>
+      </Card>
+    </Col>
   );
 };
 
-export default DetailCard;
-
 DetailCard.propTypes = {
   name: PropTypes.string.isRequired,
-  population: PropTypes.number.isRequired,
+  capital: PropTypes.arrayOf(string).isRequired,
   flag: PropTypes.string.isRequired,
 };
+
+export default DetailCard;

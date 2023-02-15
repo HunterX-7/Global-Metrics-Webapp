@@ -1,9 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
-
-const API_URL = 'https://restcountries.com/v3.1/all';
-const GET_COUNTRY = 'GET_COUNTRY';
+import { API_URL, GET_COUNTRY } from './constants';
 
 const countryReducer = (state = [], action) => {
   switch (action.type) {
@@ -18,8 +16,20 @@ const getCountryApi = createAsyncThunk(GET_COUNTRY, () => axios.get(API_URL).the
   const countryData = (resp.data).map((country) => (
     {
       name: country.name.common,
+      nativeName: country.name.nativeName,
+      currenciesName: country.currencies,
+      capital: country.capital,
+      region: country.region,
+      subregion: country.subregion,
+      languages: country.languages,
+      area: country.area,
+      maps: country.maps.googleMaps,
+      timezones: country.timezones,
+      continents: country.continents,
       population: country.population,
       flag: country.flags.svg,
+      flagDescription: country.flags.alt,
+      coatOfArms: country.coatOfArms.svg,
       id: uuidv4(),
     }
   ));

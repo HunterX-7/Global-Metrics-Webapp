@@ -21,6 +21,14 @@
   margin: 0;
 }
 
+.bg-color {
+  background-color: #0c58c9;
+}
+
+.bg-color2 {
+  background-color: whitesmoke;
+}
+
 .box {
   background-color: transparent;
   border: 1px solid transparent;
