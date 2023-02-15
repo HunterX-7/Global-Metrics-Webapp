@@ -6,7 +6,7 @@ const App = () => (
   <>
     <Routes>
       <Route path="/" exact element={<HomePage />} />
-      <Route path="/details/:name" exact element={<DetailPage />} />
+      <Route path="/country/:name" exact element={<DetailPage />} />
       <Route path="/*" exact element={<HomePage />} />
     </Routes>
   </>

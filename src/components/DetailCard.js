@@ -6,7 +6,7 @@ const DetailCard = (props) => {
 
   return (
     <>
-      <Link to={`details/${name}`}>
+      <Link to={`country/${name}`}>
         <div>
           <img
             src={flag}
