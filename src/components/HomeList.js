@@ -5,22 +5,22 @@ const HomeList = (props) => {
   const { data } = props;
 
   return (
-    <div>
+    <>
       {data.map((country) => {
         const {
-          id, name, population, flag,
+          id, name, capital, flag,
         } = country;
 
         return (
           <DetailCard
             key={id}
             name={name}
-            population={population}
+            capital={capital}
             flag={flag}
           />
         );
       })}
-    </div>
+    </>
   );
 };
 
