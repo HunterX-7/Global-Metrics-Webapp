@@ -8,7 +8,12 @@ const DetailCard = (props) => {
     <>
       <Link to={`details/${name}`}>
         <div>
-          <img src={flag} alt={name} />
+          <img
+            src={flag}
+            alt={name}
+            width="150"
+            height="100"
+          />
         </div>
       </Link>
       <h2>{name}</h2>
