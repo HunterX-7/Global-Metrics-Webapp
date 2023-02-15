@@ -1,4 +1,3 @@
-import './App.css';
 import { Route, Routes } from 'react-router';
 import HomePage from './pages/HomePage';
 import DetailPage from './pages/DetailsPage';
@@ -6,9 +5,9 @@ import DetailPage from './pages/DetailsPage';
 const App = () => (
   <>
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/details/:name" element={<DetailPage />} />
-      <Route path="/*" element={<HomePage />} />
+      <Route path="/" exact element={<HomePage />} />
+      <Route path="/details/:name" exact element={<DetailPage />} />
+      <Route path="/*" exact element={<HomePage />} />
     </Routes>
   </>
 );
