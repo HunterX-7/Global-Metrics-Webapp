@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 import { useEffect, useState } from 'react';
 
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -135,16 +136,19 @@ const HomePage = () => {
       <div className="container-fluid bg-primary">
         <div className="row">
           <div className="col-md-11 col-12">
-            <h2 className="display-5 hero-p" style={{ fontWeight: '600', fontSize: '40px' }}>STATS BY COUNTRY</h2>
+            <h2 className="display-5 hero-p" style={{ fontWeight: '600', fontSize: '36px' }}>STATS BY COUNTRY</h2>
           </div>
         </div>
       </div>
-
-      <HomeList
-        data={list.filter((country) => (
-          info.toLowerCase() === '' ? country : country.name.toLowerCase().includes(info)
-        ))}
-      />
+      <Container fluid className="p-3 bg-color">
+        <Row>
+          <HomeList
+            data={list.filter((country) => (
+              info.toLowerCase() === '' ? country : country.name.toLowerCase().includes(info)
+            ))}
+          />
+        </Row>
+      </Container>
     </div>
   );
 };
