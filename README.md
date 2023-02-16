@@ -17,7 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo & Project Presentation](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -67,9 +67,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo & Project Presentation <a name="live-demo"></a>
 
 - [Live Demo](#) Coming soon...
+- [Project Presentation](https://www.loom.com/share/30ca8b156124409f8fdc517365b36f14)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,8 +142,8 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add more styling to the pages.
-- [ ] Add live demo link.
+- [ ] Add filter by region.
+- [ ] Add more unique features.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
