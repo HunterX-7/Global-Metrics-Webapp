@@ -93,14 +93,20 @@ const HomePage = () => {
           <div className="col-12">
             <div className="box" />
           </div>
-          <div className="col-md-11 col-12">
-            <h1 className="display-2 hero-p" style={{ fontWeight: '700' }}>Welcome to Global Metrics</h1>
+          <div className="col-md-6 col-6">
+            <div className="box" />
+          </div>
+          <div className="col-md-5 col-12">
+            <h1 className="display-2 hero-p text-center" style={{ fontWeight: '700' }}>Welcome to Global Metrics</h1>
           </div>
           <div className="col-12">
             <div className="box" />
           </div>
-          <div className="col-md-11 col-12">
-            <h2 className="display-5 hero-p" style={{ fontWeight: '600' }}>
+          <div className="col-md-6 col-6">
+            <div className="box" />
+          </div>
+          <div className="col-md-5 col-12">
+            <h2 className="display-5 hero-p text-center" style={{ fontWeight: '600' }}>
               Current worldwide population is expected to be
               {' '}
               <strong>7,942,645,086</strong>
@@ -109,21 +115,6 @@ const HomePage = () => {
           </div>
           <div className="col-12">
             <div className="box" />
-          </div>
-          <div className="col-md-8 col-12 p-3 rounded bg-primary">
-            <p className="hero-p">
-              The projected world population on Jan. 1, 2023, was
-              {' '}
-              <strong>7,942,645,086</strong>
-              , an increase of
-              {' '}
-              <strong>73,772,634</strong>
-              , or
-              {' '}
-              <strong>0.94%</strong>
-              , from New Year&apos;s Day 2022. During past January 2023, 4.3 births
-              and 2.0 deaths were expected worldwide every 1 second.
-            </p>
           </div>
           <div className="col-12">
             <div className="box" />
