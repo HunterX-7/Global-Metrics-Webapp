@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Global-Metrics-Webapp/static/css/main.1eb9d1ce.css",
+    "main.js": "/Global-Metrics-Webapp/static/js/main.a8daa214.js",
+    "static/media/global-network-white.png": "/Global-Metrics-Webapp/static/media/global-network-white.50f300411a1832adf766.png",
+    "static/media/pngwing.com2.png": "/Global-Metrics-Webapp/static/media/pngwing.com2.aa09dfe5df0751ff4a70.png",
+    "index.html": "/Global-Metrics-Webapp/index.html",
+    "main.1eb9d1ce.css.map": "/Global-Metrics-Webapp/static/css/main.1eb9d1ce.css.map",
+    "main.a8daa214.js.map": "/Global-Metrics-Webapp/static/js/main.a8daa214.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eb9d1ce.css",
+    "static/js/main.a8daa214.js"
+  ]
+}
