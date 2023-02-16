@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo & Project Presentation <a name="live-demo"></a>
 
-- [Live Demo](#) Coming soon...
+- [Live Demo](https://hunterx-7.github.io/Global-Metrics-Webapp/)
 - [Project Presentation](https://www.loom.com/share/30ca8b156124409f8fdc517365b36f14)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
