@@ -23,10 +23,14 @@ const DetailCard = (props) => {
   );
 };
 
+export default DetailCard;
+
 DetailCard.propTypes = {
   name: PropTypes.string.isRequired,
-  capital: PropTypes.arrayOf(string).isRequired,
+  capital: PropTypes.arrayOf(string),
   flag: PropTypes.string.isRequired,
 };
 
-export default DetailCard;
+DetailCard.defaultProps = {
+  capital: [],
+};
