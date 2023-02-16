@@ -16,12 +16,9 @@ const getCountryApi = createAsyncThunk(GET_COUNTRY, () => axios.get(API_URL).the
   const countryData = (resp.data).map((country) => (
     {
       name: country.name.common,
-      nativeName: country.name.nativeName,
-      currenciesName: country.currencies,
       capital: country.capital,
       region: country.region,
       subregion: country.subregion,
-      languages: country.languages,
       area: country.area,
       maps: country.maps.googleMaps,
       timezones: country.timezones,

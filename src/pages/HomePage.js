@@ -140,7 +140,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <Container fluid className="p-3 bg-color">
+      <Container fluid className="bg-color">
         <Row>
           <HomeList
             data={list.filter((country) => (

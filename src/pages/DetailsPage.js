@@ -59,12 +59,11 @@ const DetailPage = () => {
           </Col>
           <Col xs={12} lg={7} xl={8}>
             <Card
-              rounded
               style={{ border: 0 }}
             >
               <Card.Body>
                 <Card.Title style={{ fontWeight: '600' }}>{`${country.name}`}</Card.Title>
-                <Table table striped bordered hover variant="primary">
+                <Table striped bordered hover variant="primary">
                   <tbody>
                     <tr>
                       <td>Name</td>
