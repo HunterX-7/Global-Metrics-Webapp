@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { HashRouter } from 'react-router-dom';
 import DetailCard from '../components/DetailCard';
 import '@testing-library/jest-dom';
-import store from '../Redux/ConfigureStore';
+import store from '../redux/configureStore';
 
 describe('Test page deployment', () => {
   const country1 = [
